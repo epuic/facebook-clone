@@ -4,6 +4,8 @@
 
 This project is a full-stack social media platform engineered to emulate core functionalities of Facebook. It is developed with a Java-based backend and a JavaScript-driven frontend, structured around a microservices architecture for enhanced scalability and modularity.
 
+![Demo](/Animationn.gif)
+
 ## 2. Architecture
 
 The system employs a microservices architecture comprising two primary backend services, alongside a frontend application:
