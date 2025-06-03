@@ -73,7 +73,7 @@ Based on the repository's language composition and common practices for such app
 ### 6.1. Backend Services Setup (Example using Spring Boot with Maven)
 *(General steps to be adapted for each microservice: `auth-communication-service` and `core-platform-service`)*
 
-1.  Clone the repository: `git clone https://github.com/GrigorasVictor/Facebook-clone.git`
+1.  Clone the repository: `git clone https://github.com/epuic/Facebook-clone.git`
 2.  Navigate to the specific service directory:
     *   `cd Facebook-clone/auth-communication-service`
     *   OR `cd Facebook-clone/core-platform-service`
