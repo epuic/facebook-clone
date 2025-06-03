@@ -1,0 +1,208 @@
+/* General Profile Page Styling */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e4e6eb;
+  margin-bottom: 20px;
+}
+
+.profile-header h1 {
+  font-size: 28px;
+  color: #1877f2; /* Facebook blue */
+  margin: 0;
+}
+
+/* Profile Content & Sections */
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); Removed for a flatter design within the main container */
+}
+
+.profile-section h2 {
+  font-size: 20px;
+  color: #1c1e21;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e4e6eb;
+}
+
+/* Info Items (About Section) */
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.info-item .info-label {
+  font-weight: 600;
+  color: #606770;
+  margin-right: 8px;
+  min-width: 120px; /* For alignment */
+}
+
+.info-item span:not(.info-label) {
+  color: #1c1e21;
+}
+
+.info-item .info-score {
+  font-weight: bold;
+  color: #1877f2; /* Facebook blue for emphasis */
+}
+
+/* Activity Section */
+.activity-stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1877f2;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #606770;
+  margin-top: 4px;
+}
+
+/* Error Banner */
+.profile-error-banner {
+  background-color: #ffebe9;
+  color: #d8000c;
+  border: 1px solid #ffc0b8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-error-banner p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Loading State (Simple text, can be enhanced with a spinner) */
+.profile-container p {
+  font-size: 16px;
+  color: #606770;
+  text-align: center;
+}
+
+/* Placeholder for Profile Picture Section (when added) */
+.profile-picture-section {
+  text-align: center;
+}
+
+.profile-picture-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  margin: 0 auto 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 3px solid #1877f2;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-picture-placeholder i {
+  font-size: 70px;
+  color: #65676b;
+}
+
+.upload-controls label {
+  display: inline-block;
+  background-color: #1877f2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+  transition: background-color 0.2s;
+}
+
+.upload-controls label:hover {
+  background-color: #166fe5;
+}
+
+.upload-controls input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.upload-controls button {
+  background-color: #42b72a; /* Green for save */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.upload-controls button:hover {
+  background-color: #36a420;
+}
+
+.upload-controls button:disabled {
+  background-color: #ccd0d5;
+  cursor: not-allowed;
+}
+
+.preview-image-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.preview-image {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+} 

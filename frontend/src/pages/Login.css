@@ -1,0 +1,156 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.facebook-logo {
+  color: #1877f2;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #1877f2;
+}
+
+.login-button {
+  background-color: #1877f2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #166fe5;
+}
+
+.login-button:disabled {
+  background-color: #e4e6eb;
+  cursor: not-allowed;
+}
+
+.forgot-password {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.forgot-password a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #dadde1;
+}
+
+.divider span {
+  position: relative;
+  background-color: white;
+  padding: 0 16px;
+  color: #606770;
+  font-size: 13px;
+}
+
+.create-account-button {
+  background-color: #42b72a;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-account-button:hover {
+  background-color: #36a420;
+}
+
+.create-account-button:disabled {
+  background-color: #e4e6eb;
+  cursor: not-allowed;
+}
+
+.message {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #ffebe9;
+  color: #cf222e;
+  border: 1px solid #ffebe9;
+}
+
+.success-message {
+  background-color: #e6ffec;
+  color: #116329;
+  border: 1px solid #e6ffec;
+}
+
+.banned-message {
+  background-color: #ffeaea;
+  color: #dc3545;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #dc3545;
+  font-weight: 500;
+} 
